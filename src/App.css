@@ -1,0 +1,47 @@
+.component-body-container{
+    padding:20px;
+}
+
+.button{
+    color:green;
+    border:none;
+    padding: 10px;
+    margin-right:10px;
+    width: 80px;
+    font: size 0.9rem;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.add-btn{
+    background: rgb(31, 231, 31);
+    color:#fff;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 40% 30% auto;
+    margin-bottom: 10px;
+}
+
+.heading-container{
+    margin:30px 0 30px 0;
+    width:100%;
+}
+
+.grid-item{
+    background-color:rqba(255 ,255, 255 ,0.8);
+    font-size: 1.15rem;
+    word-wrap: break-word;
+    padding: 10px;
+
+}
+
+.name-heading,.phone-heading {
+    font-size: 1.rem;
+    font-weight: 600;
+    color:#808080;
+    text-transform: uppercase;
+
+}
