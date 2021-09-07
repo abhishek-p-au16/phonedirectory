@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import AddSubscriber from './addSubscriber';
 import App from './App';
+import Header from './Header';
+import "./common/common.css";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AddSubscriber />
   </React.StrictMode>,
   document.getElementById('root')
 );

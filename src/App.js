@@ -3,6 +3,10 @@ import Header from "./Header"
 
 import './App.css'
 class App extends Component {
+  clickHandler(message){
+    alert(message)
+
+  }
 
 
   render() {
@@ -36,7 +40,7 @@ class App extends Component {
 
     return(
       <div>
-        <Header/>
+        <Header  heading="PHONE DIRECTORY"/>
        <div className="component-body-container">
          <button className="button add-btn">Add</button>
          <div className="grid-container header-container">
@@ -48,6 +52,7 @@ class App extends Component {
              return(<div key ={sub.id} className="grid-container">
                <span className="grid-item ">{sub.name}</span>
                <span className="grid-item">{sub.Number}</span>
+               <button className="button deletebtn" onClick={this.clickHandler.bind(this,"dlete handler clicked")}>Delete</button>
                     </div>
              )
            })
